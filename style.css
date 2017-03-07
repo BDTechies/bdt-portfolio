@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#bdtContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  position: relative;
+}
+
+#carouselMain {
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
+}
+
+.carouselContainer {
+  width: 720px;
+  height: 405px;
+  overflow: hidden;
+  position: relative;
+}
+
+.carouselContainer .carouselInner {
+  display: flex;
+  position: absolute;
+  transition: left ease-out 0.3s;
+}
+
+.carouselContainer .carouselInner .imgSlide {
+  width: 720px;
+  height: 405px;
+  position: relative;
+}
+
+.carouselContainer .carouselInner .imgSlide .visitBtn {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  width: 30px;
+  height: 30px;
+  color: #f4f4f4;
+  line-height: 30px;
+  border: 1px solid #f4f4f4;
+  text-align: center;
+  opacity: 0;
+  transition: all ease-in-out 0.3s;
+}
+
+.carouselContainer .carouselInner:hover .visitBtn {
+  opacity: 0.5;
+}
+
+.carouselContainer .prevBtn, .carouselContainer .nextBtn {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  font-size: 2em;
+  width: 40px;
+  height: 40px;
+  color: #f4f4f4;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+  opacity: 0;
+  transform: translateY(-50%);
+  transition: all ease-in-out 0.3s;
+}
+
+.carouselContainer .prevBtn {
+  left: 0;
+}
+
+.carouselContainer:hover .nextBtn,
+.carouselContainer:hover .prevBtn {
+  opacity: 0.5;
+}
+
+.Left {
+  position: absolute;
+  left: 0;
+  z-index: -10;
+}
+
+.carouselContainerLeft {
+  width: 640px;
+  height: 360px;
+  overflow: hidden;
+  position: relative;
+}
+
+.carouselContainerLeft .carouselInner {
+  display: flex;
+  position: absolute;
+  transition: left ease-out 0.3s;
+}
+
+.carouselContainerLeft .carouselInner .imgSlide {
+  width: 640px;
+  height: 360px;
+  position: relative;
+}
+
+.carouselContainerLeft .carouselInner .imgSlide .visitBtn {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  width: 30px;
+  height: 30px;
+  color: #f4f4f4;
+  line-height: 30px;
+  border: 1px solid #f4f4f4;
+  text-align: center;
+  opacity: 0;
+  transition: all ease-in-out 0.3s;
+}
+
+.carouselContainerLeft .carouselInner:hover .visitBtn {
+  opacity: 0.5;
+}
+
+.carouselContainerLeft .prevBtn, .carouselContainerLeft .nextBtn {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  font-size: 2em;
+  width: 40px;
+  height: 40px;
+  color: #f4f4f4;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+  opacity: 0;
+  transform: translateY(-50%);
+  transition: all ease-in-out 0.3s;
+}
+
+.carouselContainerLeft .prevBtn {
+  left: 0;
+}
+
+.carouselContainerLeft:hover .nextBtn,
+.carouselContainerLeft:hover .prevBtn {
+  opacity: 0.5;
+}
+
+.Right {
+  position: absolute;
+  right: 0;
+  z-index: -20;
+}
+
+.carouselContainerRight {
+  width: 640px;
+  height: 360px;
+  overflow: hidden;
+  position: relative;
+}
+
+.carouselContainerRight .carouselInner {
+  display: flex;
+  position: absolute;
+  transition: left ease-out 0.3s;
+}
+
+.carouselContainerRight .carouselInner .imgSlide {
+  width: 640px;
+  height: 360px;
+  position: relative;
+}
+
+.carouselContainerRight .carouselInner .imgSlide .visitBtn {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  width: 30px;
+  height: 30px;
+  color: #f4f4f4;
+  line-height: 30px;
+  border: 1px solid #f4f4f4;
+  text-align: center;
+  opacity: 0;
+  transition: all ease-in-out 0.3s;
+}
+
+.carouselContainerRight .carouselInner:hover .visitBtn {
+  opacity: 0.5;
+}
+
+.carouselContainerRight .prevBtn, .carouselContainerRight .nextBtn {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  font-size: 2em;
+  width: 40px;
+  height: 40px;
+  color: #f4f4f4;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+  opacity: 0;
+  transform: translateY(-50%);
+  transition: all ease-in-out 0.3s;
+}
+
+.carouselContainerRight .prevBtn {
+  left: 0;
+}
+
+.carouselContainerRight:hover .nextBtn,
+.carouselContainerRight:hover .prevBtn {
+  opacity: 0.5;
+}
