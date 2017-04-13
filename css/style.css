@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro');
+
+div,h1,h2,h3
+{
+    font-family: 'Advent Pro', sans-serif;
+}
+body
+{
+    
+}
+.body-section-01
+{
+    background-image: url(../images/02_resource_bg.png);
+    height: 779px;
+    width: 100%;
+}
+.bdt-container
+{
+    max-width: 1400px;
+    margin: auto;
+    background-color: #1d191f;
+    
+}
+
+.center
+{
+    text-align: center;
+}
+.body-section-01 .text
+{
+    display: inline-block;
+    margin-top: 325px;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+}
+.body-section-02
+{
+    margin-top: 150px;
+    
+   
+    
+}
+.body-section-02 .text
+{
+    font-size: 30px;
+    color: white;
+    text-align: justify;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 130px;
+    padding-bottom: 140px;
+    
+    background-color: #2a2224;
+}
+.grnupr
+{
+    float: right;
+    margin-right: -15px;
+    margin-top: 35px;
+}
+.grnlower
+{
+    float: left;
+        margin-top: -275px;
+    margin-left: -21px;
+}
+.sectn-ttl
+{
+    font-size: 36px;
+    color: white;
+    padding: 15px 30px;
+    background-color:#1d191f;
+    margin-left: 95px;
+    display: inline-block;
+    margin-bottom: -40px;
+}
+.body-section-03 
+{
+    margin-top: 130px;
+}
+.body-section-04 
+{
+    margin-top: 130px;
+}
+.body-section-06 
+{
+    margin-top: 130px;
+}
+.body-section-03 .process-container
+{
+    background-color: #2a2224;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+.process-container .process-list
+{
+    background-color: white;
+    margin: 0 95px;
+    padding: 30px;
+    
+}
+.process-list .img
+{
+    display: inline-block;
+    height: 110px;
+}
+.arrow
+{
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+}
+.body-section-04 .tools-container
+{
+    background-color: #2a2224;
+    padding:95px; 
+}
+.bg-color-00
+{
+     background-color: #2a2224;
+}
+.tools-container img
+{
+    opacity: .5;
+    margin: auto;
+    padding-right: 20px;
+}
+.body-section-06 .head-text
+{
+    background-color: #282830;
+    text-align: center;
+    padding: 30px;
+    font-size: 36px;
+    color: white;
+}
+.body-section-06 input , .body-section-06 textarea
+{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    background-color: #2a2224;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    width: 100%;
+    opacity: .4;
+}
+.body-section-06 textarea
+{
+     height: 220px;
+    resize: none;
+}
+.contact-form
+{
+    padding: 10px 190px;
+    padding-bottom: 50px;
+}
+.footer
+{
+    background-color: #97d226;
+    text-align: center;
+    padding: 10px;
+    margin-top: 150px;
+    font-size: 24px;
+    color: #1d191f;
+}
